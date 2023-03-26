@@ -51,6 +51,9 @@ dependencies:
   flutter_cached_pdfview: ^0.4.1
   # flutter_full_pdf_viewer: ^1.0.6
   flutter_full_pdf_viewer_null_safe: ^1.0.0
+  material_design_icons_flutter: ^6.0.7096
+  jiffy: ^5.0.0
+  datepicker_dropdown: ^0.0.7+4
 
 dev_dependencies:
   flutter_test:

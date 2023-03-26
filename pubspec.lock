@@ -73,6 +73,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.3"
+  datepicker_dropdown:
+    dependency: "direct main"
+    description:
+      name: datepicker_dropdown
+      sha256: "6cac087940708c69a8fe06d0ca437954b2d34b97fd9c21f61e5f6aa0ca387afe"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.7+4"
   equatable:
     dependency: transitive
     description:
@@ -240,6 +248,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.17.0"
+  jiffy:
+    dependency: "direct main"
+    description:
+      name: jiffy
+      sha256: "85172c4fc975a50224521c05bf43abc845288863b19d91bd3c221a96a8785dd3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.0"
   js:
     dependency: transitive
     description:
@@ -272,6 +288,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.0"
+  material_design_icons_flutter:
+    dependency: "direct main"
+    description:
+      name: material_design_icons_flutter
+      sha256: "8ef8562d16e747b2d93e5da5c2508931588939c5c00ebc8e2768e803db7dfd3c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.7096"
   meta:
     dependency: transitive
     description:

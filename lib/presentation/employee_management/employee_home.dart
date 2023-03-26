@@ -2,9 +2,14 @@
 
 import 'package:flutter/material.dart';
 
+import '../admin/admini_payslip.dart';
 import 'ProjectsPage/ProjectsPage.dart';
 import 'TasksPage/TasksPage.dart';
+import 'billing/views/billing_view.dart';
 import 'pdf_view.dart';
+import 'people_list.dart';
+import 'stocks_view.dart';
+import 'time_card_view.dart';
 
 class EmployeeHomePage extends StatefulWidget {
   const EmployeeHomePage({Key? key}) : super(key: key);
@@ -28,6 +33,11 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
         print(index);
       },
     ),
+    // EmpDetailsView(),
+    BillingView(),
+    StocksView(), const TimeCardView(),
+    const PaySlip(),
+    const PeopleView(),
     const PdfViewer(),
   ];
   @override
@@ -48,9 +58,33 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
           BottomNavigationBarItem(
               icon: Icon(Icons.home_rounded), label: "Home"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.calendar_month_rounded), label: "Tasks"),
+            icon: Icon(Icons.calendar_month_rounded),
+            label: "Projects",
+          ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.attach_email), label: "Documentation"),
+            icon: Icon(Icons.inventory_outlined),
+            label: "Billing",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.data_thresholding_outlined),
+            label: "Stocks",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.time_to_leave),
+            label: "TimeCardView",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.payment_outlined),
+            label: "PaySlip",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calculate),
+            label: "GST calculator",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.attach_email),
+            label: "Documentation",
+          ),
         ],
       ),
     );
