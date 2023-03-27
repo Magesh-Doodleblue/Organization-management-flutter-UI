@@ -46,10 +46,7 @@ dependencies:
   fluttertoast: ^8.2.1
   flutter_svg: ^2.0.4
   file_picker: ^5.2.6
-  # flutter_pdfview: ^1.2.9
-  # advance_pdf_viewer2: ^2.0.4
   flutter_cached_pdfview: ^0.4.1
-  # flutter_full_pdf_viewer: ^1.0.6
   flutter_full_pdf_viewer_null_safe: ^1.0.0
   material_design_icons_flutter: ^6.0.7096
   jiffy: ^5.0.0
