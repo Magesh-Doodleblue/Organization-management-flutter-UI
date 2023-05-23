@@ -1,9 +1,6 @@
 // ignore_for_file: must_be_immutable, prefer_typing_uninitialized_variables
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import 'user_dashboard.dart';
 
 class UserSigninScreen extends StatelessWidget {
   UserSigninScreen({super.key});
@@ -198,9 +195,7 @@ class UserSigninScreen extends StatelessWidget {
                                   child: ElevatedButton(
                                     onPressed: () {
                                       _formKey.currentState!.save();
-                                      if (_formKey.currentState!.validate()) {
-                                        Get.to(() => UserDashboard());
-                                      }
+                                      if (_formKey.currentState!.validate()) {}
                                     },
                                     style: ElevatedButton.styleFrom(
                                       backgroundColor: const Color.fromARGB(
