@@ -200,10 +200,10 @@ class UserMainScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Expanded(
+                  const Expanded(
                     flex: 1,
                     child: Column(
-                      children: const [
+                      children: [
                         PlaningGrid(),
                         SizedBox(
                           height: 220,
@@ -409,9 +409,9 @@ class PlaningGrid extends StatelessWidget {
                             ],
                           ),
                           const Spacer(),
-                          Column(
+                          const Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
+                            children: [
                               Icon(
                                 Icons.more_vert,
                                 color: Colors.grey,
@@ -503,15 +503,15 @@ class ActivityHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const Text(
+        Text(
           "Activity",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         Row(
-          children: const [
+          children: [
             Text(
               "Day",
               style: TextStyle(color: Colors.grey),
